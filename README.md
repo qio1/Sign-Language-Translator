@@ -1,48 +1,47 @@
 # Sign-Language-Translator
-**Project Document**
-
-**by Visible Sound**
 
 **Team Members: Qiao Wang, Salma Elmahallawy and Yiding Yuan**
 
-**Project Statement**
+## Project Statement
 
 Our goal is to use indigenous perspectives and ethical methodologies to build AI tools with gesture-based interfaces. Our application will be a sign language translator.
 
-**Stakeholders**
+## Stakeholders
 
 Our user will be a sign language learner and non-user, ultimately to help them understand and learn sign languages while communicating with sign language users or deaf people, ultimately among the indigenous people.
 
-**List of Objectives**
+## List of Objectives
 
 - Take a real time Plains sign language image and translate it to its equivalent meaning in English
 - Potentially, the app can also translate Plains sign language to American sign language
 
-**Criteria &amp; Metrics:**  **how to measure success, how to express yourself, etc**
+## Criteria &amp; Metrics
+**how to measure success, how to express yourself, etc**
 
 - Classification accuracy
 - Curve fitting (model not overfitting or underfitting)
 - Ability to use transfer learning to classify Plains Sign Language instead of ASL
 - User friendly application integrated for better application of the project
 
-**Things to look at for ethics analysis**
+## Things to look at for ethics analysis
 
 - Data accuracy
 - Preserving the Plains Sign Language as part of their culture
 - Protect User privacy by erasing the uploaded images after translation
 
-**Constraints/Limitations**
+## Constraints/Limitations
 
 - Limited memory provided by Google Colab, so implementation must be as efficient as possible
 - No lakota sign language data sets/ very small data sets found. Transfer learning will be used after training our model to learn features from ASL datasets.
 
-**Medium**
+## Medium
 
 - OpenCV: for changing dataset images from BRG to grayscale
 - Tensorflow Keras for the model
 - Flutter for a cross-platform application that can be used as a mobile app or on the web.
 
-**Technical details: datasets, data preprocessing, models, platform development tools, etc.**
+## Technical details
+**datasets, data preprocessing, models, platform development tools, etc.**
 
 - **Necessary Material :**
 
@@ -82,19 +81,17 @@ convert h5 format to TFlite
 
 https://colab.research.google.com/drive/1piw0dicCclT76aOrQF7YOnz1nDeI0hci
 
-**Results**
+## Results
 
 One of the test datasets had 42 out of 51 accurately classified, which is almost 82.35% . Another dataset was created by Qiao by taking images for all 51 classes, and the results were a bit lower. Only 20 over 51, which is approximately 39%, were right.
 
 The application was fully implemented, and it was able to select a picture from the device or take a real-time image.
 
-**Next steps**
+## Next steps
 
 First we would like to fully integrate the model and the application. In the future, we would also like to look into transfer learning to add an option for translating the Lakota sign language for a more inclusive app.
 
-**Conclusion**
-
-**References**
+## References
 
 [https://www.nidcd.nih.gov/health/american-sign-language](https://www.nidcd.nih.gov/health/american-sign-language)
 
