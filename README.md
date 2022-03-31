@@ -1,6 +1,8 @@
 # Sign-Language-Translator
 
 **Team Members: Qiao Wang, Salma Elmahallawy and Yiding Yuan**
+## Presentation video
+https://drive.google.com/file/d/1eSUjm9WlryqX21HcqGJZy34szFDUbQvT/view?usp=sharing
 
 ## Project Statement
 
