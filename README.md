@@ -1,6 +1,7 @@
 # Sign-Language-Translator
 
-**Team Members: Qiao Wang, Salma Elmahallawy and Yiding Yuan**
+This project was initially forked but has been completely rewritten and developed by [@qio1](https://github.com/qio1). The original fork had minimal contribution.
+
 ## Presentation video
 https://drive.google.com/file/d/1eSUjm9WlryqX21HcqGJZy34szFDUbQvT/view?usp=sharing
 
